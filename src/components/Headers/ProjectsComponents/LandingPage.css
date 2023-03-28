@@ -1,0 +1,56 @@
+@media only screen and (min-width: 768px) {
+    /* Set desktop layout styles */
+  
+    /* Set header styles */
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    header h1 {
+      font-size: 60px;
+      margin-right: 64px;
+    }
+    
+    /* Set main content styles */
+    main {
+      margin-top: 160px;
+    }
+    
+    /* Set welcome section styles */
+    section#welcome {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 80px;
+    }
+    
+    section#welcome .welcome-content {
+      margin-right: 0;
+    }
+    
+    section#welcome .projects-list {
+      margin-left: auto;
+    }
+    
+    /* Set project section styles */
+    section.project {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    section.project .project-content {
+      max-width: 50%;
+    }
+    
+    section.project .project-image {
+      max-width: 40%;
+      margin-left: 64px;
+    }
+    
+    section.project .project-links {
+      justify-content: flex-end;
+      margin-top: 32px;
+    }
+  }
