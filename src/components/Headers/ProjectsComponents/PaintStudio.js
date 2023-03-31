@@ -1,5 +1,6 @@
 import React from 'react';
 import Buttons from './OtherComponents/Buttons';
+import TwitchStream from './OtherComponents/TwitchEmbed';
 
 function PaintStudio(props) {
   const { onChange } = props;
@@ -11,7 +12,10 @@ function PaintStudio(props) {
         to add interactive software so every robot you might be able to control comes with a catch. 
         It takes teamwork and a lot of typing to get stuff to paint here.
       </p>
+      <TwitchStream channel="ThePaintStudio" />
+      <div>
       <Buttons onChange={onChange} />
+      </div>
     </div>);
   }
   

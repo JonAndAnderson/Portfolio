@@ -36,7 +36,7 @@ function Portfolio() {
       </header>
 
       {/* Main Content */}
-      <main>
+      <main className='wrapper'>
         {/* Welcome section */}
         <div className="welcome-content">
           {text}

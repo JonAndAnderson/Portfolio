@@ -10,7 +10,9 @@ function SnakeGame(props) {
       <p>I just thought it would be interesting to see a snake game here. Truth be told, a lot of the math for this I ripped from somewhere else button
         how it looks is all me!
       </p>
+      <div>
       <Buttons onChange={onChange} />
+      </div>
     </div>);
   }
   
